@@ -125,10 +125,6 @@ class Train():
         return accu
 
     def Prediction(self):
-        '''
-        This is to predict the results for testing dataset
-        :return:
-        '''
         self.net.eval()
         prediction_ = []
         real_ = []
